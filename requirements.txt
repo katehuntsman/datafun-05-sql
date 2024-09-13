@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 panda
 pyarrow
+=======
+panda
+pyarrow
+>>>>>>> 1c184c5 (initial commit)
