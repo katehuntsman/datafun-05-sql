@@ -10,3 +10,10 @@ Project 5 integrates Python and SQL, focusing on database interactions using SQL
 import pandas
 import pyarrow (required when using pandas)
 ```
+
+## Git add, commit, push
+```
+git add .
+git commit -m "after .venv setup"
+git push -u origin main
+```
