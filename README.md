@@ -5,15 +5,15 @@
 Project 5 integrates Python and SQL, focusing on database interactions using SQLite. This project introduces logging, a useful tool for debugging and monitoring projects, and involves creating and managing a database, building a schema, and performing various SQL operations, including queries with joins, filters, and aggregations.
 ```
 
-## Import Dependencies
+## Schema Overview  
 ```
-import pandas
-import pyarrow (required when using pandas)
+Tables:
+1. Movie Directors: name, birth_year
+2. Movie Ratings (on scale of 10): director_id, movie_title, rating
 ```
 
-## Git add, commit, push
+## Create SQL folder with various files
 ```
-git add .
-git commit -m "after .venv setup"
-git push -u origin main
+create_movie_tables.sql
+insert_records.sql
 ```
