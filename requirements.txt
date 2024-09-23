@@ -1,2 +1,5 @@
 panda
 pyarrow 
+logging
+sqlite3
+pathlib
