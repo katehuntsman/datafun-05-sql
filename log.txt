@@ -1,0 +1,10 @@
+2024-09-23 13:17:05,958 - INFO - Program started
+2024-09-23 13:17:05,958 - INFO - Database created/connected successfully.
+2024-09-23 13:17:05,960 - INFO - Executed SQL from sql/create_tables.sql
+2024-09-23 13:17:05,960 - ERROR - Error executing SQL from file.
+Traceback (most recent call last):
+  File "/Users/katehuntsman/Documents/Data Analytics Fundamental/datafun-05-sql/movie_ratings.py", line 28, in execute_sql_from_file
+    conn.executescript(sql_script)
+sqlite3.OperationalError: no such table: directors
+2024-09-23 13:17:05,962 - INFO - All SQL operations completed successfully
+2024-09-23 13:17:05,962 - INFO - Program ended
