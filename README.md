@@ -11,9 +11,14 @@ Tables:
 1. Movie Directors: name, birth_year
 2. Movie Ratings (on scale of 10): director_id, movie_title, rating
 ```
+![Movie Directors Screenshot](assets/director_screenshot)
 
-## Create SQL folder with various files
+![Movie Ratings Screenshot](assets/ratings_screenshot)
+
+## SQL folder with various table files
 ```
 create_movie_tables.sql
 insert_records.sql
+update_records.sql
 ```
+![Updating Movie Rating Screenshot](assets/ratings_screenshot)
